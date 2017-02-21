@@ -9,4 +9,4 @@ version '0.1.0'
 issues_url 'https://github.com/sclark007/aix_hardening/issues' if respond_to?(:issues_url)
 source_url 'https://github.com/sclark007/aix_hardening' if respond_to?(:source_url)
 
-support 'aix'
+supports 'aix'
