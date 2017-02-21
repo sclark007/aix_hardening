@@ -10,7 +10,7 @@
 cookbook_file '/etc/security/aixpert/custom/cis.xml' do
   source 'cis.xml'
   owner 'root'
-  group 'root'
+  group node['root_group']
   mode 00644
 end
 
